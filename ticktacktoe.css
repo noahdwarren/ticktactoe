@@ -1,0 +1,52 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.cell {
+    text-align: center;
+    font-size: 3.4em;
+    border-style: solid;
+    border-color: black;
+}
+
+#cell-1 {
+    border-top: 0;
+    border-left: 0;
+}
+
+#cell-2 {
+    border-top: 0;
+}
+
+#cell-3 {
+    border-top: 0;
+    border-right: 0;
+}
+
+#cell-4 {
+    border-left: 0;
+}
+
+#cell-6 {
+    border-right: 0;
+}
+
+#cell-7 {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#cell-8 {
+    border-bottom: 0;
+}
+
+#cell-9 {
+    border-right: 0;
+    border-bottom: 0;
+}

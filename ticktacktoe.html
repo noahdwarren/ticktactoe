@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ticktacktoe</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="ticktacktoe.css">
 
 </head>
 <body>
-    
-    
+    <h1 class="text-danger text-center">Tick-<span class="text-primary">Tack</span>-Toe</h1>
 
 
 
+    <br>
+    <div id="grid">
+        
+            <div id="cell-1" class="cell container">1</div>
+            <div id="cell-2" class="cell container">2</div>
+            <div id="cell-3" class="cell container">3</div>
+        
+        
+            <div id="cell-4" class="cell container">4</div>
+            <div id="cell-5" class="cell container">5</div>
+            <div id="cell-6" class="cell container">6</div>
+        
+        
+            <div id="cell-7" class="cell container">7</div>
+            <div id="cell-8" class="cell container">8</div>
+            <div id="cell-9" class="cell container">9</div>
+        
+    </div>
 
-
+    <br>
+    <div class="text-center">
+        <button id="reset" class="text-center btn btn-danger">Reset</button>
+    </div>
 
     <script src="ticktacktoe.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
